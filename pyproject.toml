@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "panvaxmem"
+version = "0.1.0"
+description = "Analysis code for \"The regulatory architecture of vaccine-induced innate immune memory in humans.\""
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Ruchir Rastogi" },
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+
+[tool.isort]
+profile = "black"
+line_length = 100
+src_paths = ["src"]
