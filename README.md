@@ -1,15 +1,14 @@
 # pan-vaccine-innate-memory
 
-Analysis code for the manuscript:
+Analysis code for the following manuscript, currently in submission:
 
-**The regulatory architecture of vaccine-induced innate immune memory in humans**
-
-Wimmers\*, Rastogi\*, Xie\*, Jimenez, Hu, Yin, Liu, Kim, Trisal, Li, Arunachalam,
-Kazmin, Ashuach, Maecker, Ahmed, Rouphael, Lareau, Satpathy, Yosef, Pulendran
-
-\*equal contribution
-
-This manuscript is currently in submission.
+> **The regulatory architecture of vaccine-induced innate immune memory in humans**
+>
+> Wimmers\*, Rastogi\*, Xie\*, Jimenez, Hu, Yin, Liu, Kim, Trisal, Li,
+> Arunachalam, Kazmin, Ashuach, Maecker, Ahmed, Rouphael, Lareau, Satpathy,
+> Yosef, Pulendran
+>
+> \*equal contribution
 
 > [!NOTE]
 > This repository is under active development while the manuscript is in submission.
