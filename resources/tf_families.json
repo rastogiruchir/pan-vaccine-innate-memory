@@ -1,0 +1,82 @@
+{
+    "IRF/STAT": [
+        "IRF1",
+        "IRF2",
+        "IRF7",
+        "IRF8",
+        "IRF9",
+        "STAT1",
+        "STAT1::STAT2",
+        "STAT3"
+    ],
+    "C/EBP": [
+        "CEBPA",
+        "CEBPB",
+        "CEBPD",
+        "CEBPE",
+        "CEBPG"
+    ],
+    "ETS": [
+        "ELF1",
+        "ELF4",
+        "ERG",
+        "FLI1",
+        "EWSR1-FLI1",
+        "FEV",
+        "ERF",
+        "ETV3",
+        "ELF3",
+        "ELF5",
+        "EHF",
+        "ETS1",
+        "SPDEF",
+        "ETV4",
+        "ETV5",
+        "ETV1",
+        "ETV2",
+        "SPI1",
+        "SPIB",
+        "SPIC",
+        "ELK1",
+        "ELK4",
+        "ELK3",
+        "ETV6"
+    ],
+    "NFY": [
+        "NFYA",
+        "NFYB"
+    ],
+    "NRF": [
+        "NRF1"
+    ],
+    "NFkB": [
+        "NFKB1",
+        "NFKB2",
+        "REL",
+        "RELA"
+    ],
+    "AP-1": [
+        "ATF4",
+        "ATF7",
+        "BATF3",
+        "BATF::JUN",
+        "FOS",
+        "FOS::JUN",
+        "FOSL1",
+        "FOSL2",
+        "JDP2",
+        "JDP2(var.2)",
+        "JUN",
+        "JUN(var.2)",
+        "JUNB",
+        "JUND",
+        "JUND(var.2)",
+        "MAF::NFE2",
+        "MAFF",
+        "MAFG",
+        "MAFK"
+    ],
+    "BHLHE40": [
+        "BHLHE40"
+    ]
+}
