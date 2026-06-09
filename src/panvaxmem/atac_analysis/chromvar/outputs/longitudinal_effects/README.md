@@ -1,0 +1,16 @@
+- H5N1+AS03 (H5N1_adj)
+    - Copied from `/data/yosef2/users/ruchir/pan_vaccine_immune_response/scATAC/chromVAR/H5N1/adj_DAMs_z_JASPAR2016`
+- H5N1 (H5N1_nadj)
+    - Copied from `/data/yosef2/users/ruchir/pan_vaccine_immune_response/scATAC/chromVAR/H5N1/nadj_DAMs_z_JASPAR2016`
+- TIV
+    - Copied from `/data/yosef2/users/ruchir/pan_vaccine_immune_response/scATAC/chromVAR/TIV/DAMs_z_JASPAR2016`
+- BNT162b2 (PFZR)
+    - Copied from `/data/yosef2/users/ruchir/pan_vaccine_immune_response/scATAC/chromVAR/PFZR/DAMs_z_JASPAR2016`
+- YFV
+    - Copied from `/data/yosef2/users/ruchir/pan_vaccine_immune_response/scATAC/chromVAR/YFV/DAMs_z_JASPAR2016`
+- SHX
+    - Copied from `/data/yosef2/users/ruchir/pan_vaccine_immune_response/scATAC/chromVAR/SHX/DAMs_z_JASPAR2016`
+- Joint CM (only combined over above cohorts and excludes TIV2)
+    - Copied from `/data/yosef2/users/ruchir/pan_vaccine_immune_response/scATAC/chromVAR/CM/DAMs_z_JASPAR2016`
+- TIV2 PBMC
+    - Copied from `/data/yosef2/users/ruchir/pan_vaccine_immune_response/scATAC/chromVAR/TIV_mtscatac_pbmc/DAMs_z_JASPAR2016`

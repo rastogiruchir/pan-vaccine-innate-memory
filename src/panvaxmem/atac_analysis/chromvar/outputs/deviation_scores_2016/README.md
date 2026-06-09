@@ -16,9 +16,9 @@
 - Joint CM (only combined over above cohorts and excludes TIV2)
     - input h5ad: `/data/yosef2/users/ruchir/pan_vaccine_immune_response/compile_sc_data/ALL/scATAC/only_CM/cm_atac_0_002_f.per_vax.h5ad`
     - output symlink from: `/data/yosef2/users/ruchir/pan_vaccine_immune_response/scATAC/chromVAR/CM/cm_JASPAR2016_deviationScores.csv`
-- TIV2 (PBMC)
+- TIV2 PBMC
     - input h5ad: `/data/yosef2/users/ruchir/pan_vaccine_immune_response/compile_sc_data/TIV_addl/pbmc_mtscATAC/tiv_pbmc_atac.with_doublet_removal.h5ad`
     - output symlink from: `/data/yosef2/users/ruchir/pan_vaccine_immune_response/compile_sc_data/TIV_addl/pbmc_mtscATAC/chromVAR/tiv_pbmc_JASPAR2016_deviationScores.csv`
-- TIV2 (BMMC)
+- TIV2 BMMC
     - input h5ad: `/data/yosef2/users/ruchir/pan_vaccine_immune_response/compile_sc_data/TIV_addl/bm_mtscATAC/tiv_bm_atac.with_doublet_removal.h5ad`
     - output symlink from: `/data/yosef2/users/ruchir/pan_vaccine_immune_response/compile_sc_data/TIV_addl/bm_mtscATAC/chromvar/tiv_bm_JASPAR2016_deviationScores.csv`
