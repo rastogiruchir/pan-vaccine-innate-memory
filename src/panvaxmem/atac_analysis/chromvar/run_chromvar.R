@@ -1,3 +1,6 @@
+#!/usr/bin/env Rscript
+# Run chromVAR on an ATAC AnnData object and write z-scored motif deviations.
+
 library(argparse)
 library(zellkonverter)
 library(SingleCellExperiment)

@@ -1,3 +1,13 @@
+"""Compute longitudinal motif effects from z-scored chromVAR deviations.
+
+For each cell type and motif, batch-corrected time effects are fit as
+    y_i = beta_0 + beta_t * 1(time_i = t) + gamma_donor[i] + epsilon_i.
+
+For each donor, cell type, and motif, per-donor time effects are computed as
+    mean(y_donor,t) - mean(y_donor,D0),
+with p-values computed from two-sample t-tests.
+"""
+
 import argparse
 import os
 from collections import defaultdict
