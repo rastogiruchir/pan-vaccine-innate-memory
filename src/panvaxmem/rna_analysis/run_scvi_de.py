@@ -1,4 +1,4 @@
-"""Run scVI differential expression across time.
+"""Run scVI differential expression between D0 and post-vaccination time points.
 
 Differential expression is computed
     (1) per cell type across donors with batch correction and

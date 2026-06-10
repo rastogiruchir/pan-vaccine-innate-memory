@@ -1,4 +1,5 @@
-"""Compute longitudinal motif effects from z-scored chromVAR deviations.
+"""Compute differentially accessible motifs (DAMs) from z-scored chromVAR deviations. Changes are
+computed between D0 and all post-vaccination time points.
 
 For each cell type and motif, batch-corrected time effects are fit as
     y_i = beta_0 + beta_t * 1(time_i = t) + gamma_donor[i] + epsilon_i.

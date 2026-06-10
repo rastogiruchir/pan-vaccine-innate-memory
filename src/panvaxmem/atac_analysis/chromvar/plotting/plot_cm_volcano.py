@@ -28,7 +28,7 @@ VACCINE_PANELS = {
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Plot CM chromVAR volcano plots.")
     # fmt: off
-    parser.add_argument("--dams-dir", type=Path, default=Path("../outputs/longitudinal_effects"))
+    parser.add_argument("--dams-dir", type=Path, default=Path("../outputs/DAMs"))
     parser.add_argument("--output-path", type=Path, default=Path("figures/cm_chromvar_volcano.pdf"))
     parser.add_argument("--tf-families-path", type=Path, default=Path("../../../../../resources/tf_families.json"))
     parser.add_argument("--tf-palette-path", type=Path, default=Path("../../../../../resources/tf_family_palette.json"))
