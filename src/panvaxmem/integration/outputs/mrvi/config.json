@@ -1,0 +1,25 @@
+{
+    "input_adata_path": "/data/yosef2/users/ruchir/pan_vaccine_immune_response/compile_sc_data/ALL/scRNA_reprocessed/only_CM/cm_rna.platelet-mono-excluded.h5ad",
+    "output_dir": "outputs/mrvi",
+    "gpu": 1,
+    "batch_size": 1024,
+    "max_epochs": 400,
+    "n_hvg": 4000,
+    "hvg_flavor": "seurat_v3",
+    "batch_aware_hvg": true,
+    "min_frac_cells_per_vax": 0.001,
+    "n_latent": 30,
+    "n_latent_u": 10,
+    "u_prior_mixture_k": 20,
+    "sample_key": "donor",
+    "batch_key": "vaccine",
+    "labels_key": null,
+    "scale_observations": false,
+    "early_stopping": true,
+    "low_quality_celltypes": [
+        "LQC",
+        "unk",
+        "dead",
+        "Dead"
+    ]
+}
