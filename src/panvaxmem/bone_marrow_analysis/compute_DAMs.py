@@ -1,9 +1,10 @@
 """Compute TIV2 bone-marrow mtscATAC-seq chromVAR DAMs.
 
-The D0 and D28 samples are unpaired, so this script makes two complementary
-figures from z-scored chromVAR deviations:
-    (1) a conservative pairwise donor-comparison heatmap and
-    (2) a less conservative pooled-cell t-test volcano plot.
+The D0 and D28 samples are unpaired, so this script uses two complementary approaches
+to determine significant differentially accessible motifs from z-scored chromVAR deviations:
+    (1) a conservative test that compares cells from every D0-D28 donor pair and checks for
+        concordance across all pairs
+    (2) a less conservative test that pools all D0 and D28 cells and performs a two-sample t-test
 """
 
 import argparse
