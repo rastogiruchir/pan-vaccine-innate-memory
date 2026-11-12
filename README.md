@@ -4,9 +4,9 @@ Analysis code for the following manuscript, currently in submission:
 
 > **The regulatory architecture of vaccine-induced innate immune memory in humans**
 >
-> Wimmers\*, Rastogi\*, Xie\*, Jimenez, Hu, Yin, Liu, Kim, Trisal, Li,
-> Arunachalam, Kazmin, Ashuach, Maecker, Ahmed, Rouphael, Lareau, Satpathy,
-> Yosef, Pulendran
+> Wimmers\*, Rastogi\*, Xie\*, Jimenez, Nägele, Hu, Yin, Liu, Kim, Frank,
+> Trisal, Li, Arunachalam, Su, Kazmin, Ashuach, Maecker, Ahmed, Rouphael,
+> Lareau, Satpathy, Yosef, Pulendran
 >
 > \*equal contribution
 

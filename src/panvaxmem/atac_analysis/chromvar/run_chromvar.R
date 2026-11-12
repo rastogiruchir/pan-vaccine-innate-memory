@@ -20,9 +20,9 @@ parse_args <- function() {
     parser <- ArgumentParser(description = "Run chromVAR and write z-scored deviations.")
     parser$add_argument("--input-h5ad", required = TRUE, help = "Input ATAC AnnData file.")
     parser$add_argument(
-        "--output-csv",
+        "--output-prefix",
         required = TRUE,
-        help = "Output CSV path for chromVAR deviationScores."
+        help = "Output prefix for chromVAR results."
     )
     parser$add_argument(
         "--threads",
@@ -75,7 +75,8 @@ main <- function() {
         p.cutoff = args$p_cutoff
     )
     dev <- computeDeviations(object = sre, annotations = motif_ix)
-    write.table(deviationScores(dev), args$output_csv, sep = ",")
+    write.table(deviationScores(dev), paste0(args$output_prefix, ".deviationScores.csv"), sep = ",")
+    write.table(deviations(dev), paste0(args$output_prefix, ".deviations.csv"), sep = ",")
 }
 
 
