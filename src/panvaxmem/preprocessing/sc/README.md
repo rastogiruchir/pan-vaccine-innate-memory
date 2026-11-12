@@ -21,3 +21,4 @@ downstream RNA-seq analyses.
 | SHX | snATAC-seq (from multiome) | cellranger-arc + ArchR | multiVI | multiVI clusters manually annotated, copied to the ATAC component | `atac.h5ad`, `atac_meta.csv` |
 | TIV2 | mtscATAC-seq on PBMCs | cellranger-atac with special genome build + ArchR | peakVI | peakVI clusters manually annotated | `pbmc_atac.h5ad` |
 | TIV2 | mtscATAC-seq on BMMCs | cellranger-atac with special genome build + ArchR | peakVI | peakVI clusters manually annotated | `bm_atac.h5ad` |
+| SHX2 | scRNA-seq | Parse pipeline (split-pipe) | Harmony | Harmony clusters manually annotated to extract classical monocytes | `rna.h5ad` |

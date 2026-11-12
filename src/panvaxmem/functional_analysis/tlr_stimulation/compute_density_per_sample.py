@@ -19,8 +19,8 @@ import panvaxmem.functional_analysis.utils.sample_metadata as sample_metadata
 
 def parse_args():
     parser = ArgumentParser()
-    parser.add_argument("--mrvi-h5ad", default="../../integration/outputs/mrvi/mrvi.h5ad")
-    parser.add_argument("--model-dir", default="../../integration/outputs/mrvi/model")
+    parser.add_argument("--mrvi-h5ad", default="../../joint_integration/outputs/mrvi/mrvi.h5ad")
+    parser.add_argument("--model-dir", default="../../joint_integration/outputs/mrvi/model")
     parser.add_argument(
         "--functional-data-dir",
         default="/data/yosef2/users/ruchir/pan_vaccine_immune_response/functional/TLR/processed",
